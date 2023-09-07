@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>16 CSS General Descendant</title>
+    <style>
+      #first + p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p id="first">First</p>
+      <p>Second</p>
+      <p>Third</p>
+      <p>Fourth</p>
+    </div>
+
+    <p>Other paragraph!</p>
+  </body>
+</html>

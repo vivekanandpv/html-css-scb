@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 CSS Position Static</title>
+    <style>
+      #header {
+        position: relative;
+        left: 25px;
+      }
+
+      h2 {
+        /* relative to the nearest parent that is either relative of fixed */
+        position: absolute;
+        /* offsets can now be provided */
+        /* offset is not the margin! */
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="header">
+        <h2>Hello, World!</h2>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam ab
+        tempore, nemo exercitationem optio pariatur eligendi. Animi porro
+        voluptate molestias, iste suscipit facilis inventore iusto pariatur,
+        alias nam fugiat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam ab
+        tempore, nemo exercitationem optio pariatur eligendi. Animi porro
+        voluptate molestias, iste suscipit facilis inventore iusto pariatur,
+        alias nam fugiat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam ab
+        tempore, nemo exercitationem optio pariatur eligendi. Animi porro
+        voluptate molestias, iste suscipit facilis inventore iusto pariatur,
+        alias nam fugiat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam ab
+        tempore, nemo exercitationem optio pariatur eligendi. Animi porro
+        voluptate molestias, iste suscipit facilis inventore iusto pariatur,
+        alias nam fugiat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam ab
+        tempore, nemo exercitationem optio pariatur eligendi. Animi porro
+        voluptate molestias, iste suscipit facilis inventore iusto pariatur,
+        alias nam fugiat.
+      </p>
+    </div>
+  </body>
+</html>

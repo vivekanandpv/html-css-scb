@@ -1,0 +1,15 @@
+* {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+#h-tag {
+  color: orange;
+}
+
+.header {
+  color: red;
+}

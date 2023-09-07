@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 CSS Box Model</title>
+    <style>
+      h2 {
+        display: inline;
+      }
+
+      span {
+        display: block;
+      }
+
+      #imp {
+        display: inline-block;
+        /* margin and padding work only for inline-block or block */
+        margin-top: 25px;
+      }
+
+      p {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Hello, world!</h2>
+    <h2>Good afternoon</h2>
+
+    <p>Do you see this?</p>
+
+    <span>Hi</span>
+    <span>Hello</span>
+
+    <span id="imp">Cool!</span>
+  </body>
+</html>
